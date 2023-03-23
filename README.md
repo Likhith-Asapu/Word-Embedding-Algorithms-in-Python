@@ -2,8 +2,8 @@
 
 This repo contains the code for implementation of word embeddings from scratch in python using two methods:
 
-- Frequency-based Embedding - Co-occurrence Matrix method to obtain word embeddings of words occuring in a given corpus.
-- Prediction-based Embedding - Word2vec method used for training words representations. Here it is implemented using CBOW method.
+- **Frequency-based Embedding** - Co-occurrence Matrix method to obtain word embeddings of words occuring in a given corpus.
+- **Prediction-based Embedding** - Word2vec method used for training words representations. Here it is implemented using CBOW method.
 
 # Requirements
 - numpy
@@ -44,6 +44,8 @@ Example of co-occurance matrix shown below.
 3. I like deep learning.
 
 The co-occurance matrix for these sentences is $X$ where 
+
+![alt text](https://github.com/Likhith-Asapu/Word-Embeddings-Algorithms-in-Python/blob/main/Images/cooccurance.png)
 
 #### Step 2 - Singular Value Decomposition of the co-occurance matrix.
 
@@ -95,4 +97,8 @@ print(top)
 
 TSNE plots for Model 1(Co-occurance Matrix) for the words 'camera', 'product', 'good', 'strong' and 'look'.
 
+![alt text](https://github.com/Likhith-Asapu/Word-Embeddings-Algorithms-in-Python/blob/main/Images/model1.png)
+
 TSNE plots for Model 2(CBOW Word2vec) for the words 'camera', 'product', 'good', 'strong' and 'look'.
+
+![alt text](https://github.com/Likhith-Asapu/Word-Embeddings-Algorithms-in-Python/blob/main/Images/model2.png)
