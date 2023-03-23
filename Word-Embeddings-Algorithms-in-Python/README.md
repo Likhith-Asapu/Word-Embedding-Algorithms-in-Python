@@ -1,5 +1,7 @@
 # Description 
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+
 This repo contains the code for implementation of word embeddings from scratch in python using two methods:
 
 - **Frequency-based Embedding** - Co-occurrence Matrix method to obtain word embeddings of words occuring in a given corpus.
