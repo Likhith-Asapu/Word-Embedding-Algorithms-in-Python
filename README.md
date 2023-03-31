@@ -20,7 +20,7 @@ The models were trained on the following data [LINK](http://snap.stanford.edu/da
 
 `python3 part1.py` - To run model1 which uses co-occurrence matrix and svd
 
-`python3 part2.py` - To run model2 which uses Word2ve CBOW model.
+`python3 part2.py` - To run model2 which uses Word2vec CBOW model.
 
 Link for embeddings -
 [https://drive.google.com/drive/folders/1cK0aUM3likmKcisz2nK9yQlyPqBIioHi?usp=sharing](https://drive.google.com/drive/folders/1cK0aUM3likmKcisz2nK9yQlyPqBIioHi?usp=sharing)
